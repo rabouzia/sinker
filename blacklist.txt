@@ -1,0 +1,17 @@
+# Ad networks
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+
+# Tracking domains
+google-analytics.com
+facebook.com
+analytics.twitter.com
+
+# Malware (examples)
+malicious-site.com
+phishing-example.net
+
+doubleclick.net
+ads.google.com
+malware.site
