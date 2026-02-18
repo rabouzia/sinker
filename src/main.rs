@@ -9,13 +9,13 @@ use hickory_resolver::config::ResolverConfig;
 use hickory_resolver::name_server::TokioConnectionProvider;
 // use hickory_resolver::{TokioResolver, ResolverOpts, ResolverConfig};
 use hickory_server::ServerFuture;
-use std::net::SocketAddr;
+// use std::net::SocketAddr;
 
 use crate::blocklist::Blocklist;
 use crate::handler::DnsHandler;
 use std::sync::Arc;
-use std::time::Duration;
-use tokio::net::{TcpListener, UdpSocket};
+// use std::time::Duration;
+// use tokio::net::{TcpListener, UdpSocket};
 
 pub struct AppState {
     pub config: Config,

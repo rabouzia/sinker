@@ -226,6 +226,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "clap",
+ "esp-wifi-sys-esp32",
  "hickory-proto",
  "hickory-resolver",
  "hickory-server",
@@ -254,6 +255,12 @@ name = "equivalent"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
+
+[[package]]
+name = "esp-wifi-sys-esp32"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dfa62cf4d74d2639852bf3502909fc650ecc21a350a8a6369f6263273dd6188c"
 
 [[package]]
 name = "find-msvc-tools"
